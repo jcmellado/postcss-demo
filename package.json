@@ -1,0 +1,31 @@
+{
+  "name": "postcss-demo",
+  "version": "0.1.0",
+  "description": "PostCSS demo",
+  "private": true,
+  "keywords": [
+    "postCSS",
+    "css"
+  ],
+  "author": "Juan Mellado",
+  "license": "MIT",
+  "homepage": "https://github.com/jcmellado/postcss-demo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcmellado/postcss-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jcmellado/postcss-demo/issues"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "cssnano": "^3.10.0",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "postcss-cssnext": "^2.11.0",
+    "postcss-loader": "^2.0.6",
+    "webpack": "^3.0.0"
+  }
+}
