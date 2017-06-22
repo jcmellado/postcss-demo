@@ -1,7 +1,11 @@
 
 module.exports = {
   plugins: {
-    'postcss-cssnext': {},
-    'cssnano': { 'autoprefixer': false },
+    // 'cssnano': {},
+    // 'postcss-cssnext': {},
+    // 'postcss-color-function': {},
+    // 'postcss-font-magician': {},
+    // 'postcss-inline-svg': {},
+    // 'lost': {}
   }
 }

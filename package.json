@@ -24,7 +24,11 @@
     "css-loader": "^0.28.4",
     "cssnano": "^3.10.0",
     "extract-text-webpack-plugin": "^2.1.2",
+    "lost": "^8.0.0",
+    "postcss-color-function": "^4.0.0",
     "postcss-cssnext": "^2.11.0",
+    "postcss-font-magician": "^2.0.0",
+    "postcss-inline-svg": "^3.0.0",
     "postcss-loader": "^2.0.6",
     "webpack": "^3.0.0"
   }
