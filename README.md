@@ -17,6 +17,12 @@ npm install
 npm run build
 ```
 
+Enable plugins in ```postcss.config.js```.
+
+Modify ```css/styles.css```.
+
+```dist/styles.css``` will be automatically updated with the results.
+
 ## Examples
 
 ### cssnano
@@ -55,9 +61,9 @@ https://github.com/postcss/postcss-color-function
 
 ```css
 body {
-  background: color(red a(90%))
+  background: color(red a(90%));
 
-  color: color(blue w(+ 20%) s(+ 20%))
+  color: color(blue w(+ 20%) s(+ 20%));
 }
 ```
 
